@@ -1,0 +1,76 @@
+*{
+	font-family: Raleway;
+	
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+
+}
+
+.navport {
+	background-color:  teal
+}
+
+h3 {
+	background-image: linear-gradient(to right, white, teal, white)
+}
+
+.artist_design {
+	height: 200px;
+	width: 250px;
+	padding: .1rem;
+}
+
+.wall_des {
+	height: 450px;
+	padding: 1rem;
+}
+
+#artistBody {
+	background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+}
+
+.contactform {
+	height: 500px;
+	width: 600px;
+	padding: 1rem;
+	background-image: url(https://images.pexels.com/photos/2764664/pexels-photo-2764664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+}
+
+.truecontact {
+	background-image: url(https://images.pexels.com/photos/2764664/pexels-photo-2764664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+}
+
+#turners {
+	height: 300px;
+	width: 85%;
+	padding: 0.5rem;
+	text-align: justify;
+	align-content: space-between;
+	font-size: small;
+	background-image: linear-gradient(to right, white, teal);
+}
+
+h6 {
+	text-align: center;
+}
+
+#learners {
+	height: 400px;
+	width: 100%;
+	background-color: whitesmoke;
+	padding: 3rem;
+}
+
+#logotools {
+	font-style: italic;
+}
+
+
+#vintage {
+	height:  100px;
+	width: 80%;
+	padding: 1rem;
+}
+

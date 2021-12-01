@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+		<!-- Raleway font -->
+		
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		
+		<title> contact</title>
+	</head>
+	<body>
+		<div class="d-flex flex-row justify-content-between bg-white mb-4">
+             <div class="p-2 d-flex flex-row align-items-end text-dark"><b><a href="index.html" class="text-dark"> Geraldine Aclan </a></b></div>
+            <div class="d-flex flex-row align-items-end justify-content-between">
+                <div class="p-1"><a href="aboutme.html" class="text-dark">About Me</a></div>
+                <div class="p-1"><a href="index.html"class="text-dark">My Portfolio</a></div>
+                <div class="p-1"><a href="tools.html"class="text-dark"> Tools</a></div>
+                <div class="p-1"><a href="contact.html" class="text-dark">Get in touch</a></div>
+            </div>
+		</div>
+
+        <div>
+
+            <h3 class="container-fluid text-center text-white bg-dark"> Let's Connect! </h3>
+                
+			<div id="contact-form" class="contactform container col-12 col-md-8 col-xl-4 my-4 bg-light border border-light py-2" >
+		
+						<form class="mt-3 form-outline-light">
+							<div class="form-group text-white justify-content-center margin-5">
+							<!-- Name -->
+								<label for="txt-name"><b>Name:</b></label>
+								<input type="txt-name" name="txt-name" id="txt-name"	placeholder="First Name Last Name"	class="form-control">
+							</div>
+							<!-- Email -->
+							<div class="text-white justify-content-center">
+								<label for="txt-email"><b>Email:</b></label>
+								<input type="email" name="email" id="txt-email"	placeholder="name@example.com"	class="form-control">
+							</div>
+							<!-- contact number -->
+
+							<div class="text-white justify-content-center">
+								<label for="txt-contact" class="mt-3"><b>Contact Number</b></label>
+								<input type="txt-contact" name="txt-contact" id="txt-contact"	placeholder="0000-000-0000"	class="form-control">
+
+							</div>
+
+						
+							<!-- Message text -->
+							<div class="form-group text-white justify-content-center">
+								<label for="txt-message"><b>Message</b></label>
+								<textarea name="form-control" id="txt-textarea" rows="3" class="form-control"></textarea>
+							</div>
+							<button type="button" class="btn bg-white" data-toggle="modal" data-target="#ContactUs">Send </button>
+							<button type="reset" class="btn bg-info"> Reset </button>
+						</form>
+			
+
+			<!-- Modal -->
+			
+				<div id="ContactUs" tabindex="1" aria-labelledby="ContactUs" aria-hidden="true" class="modal fade">
+					<div class="py-2 modal-dialog bg-light">
+						<div class="modal-content bg-light">
+							<div class="header bg-light">
+								<h6 class="container py-2 modal-title text-center"> Thank you for contacting us!</h6>
+								<button type="button" data-dismiss="modal" aria-label="Close" class="close justify-content-center">
+									<span>&times;</span>
+								</button>
+							</div>
+						</div>
+
+						<div class="model-body container text-center bg-light">
+							Message successfully sent!
+						</div>
+						<div class="model-footer mb-3">
+							<button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
+						</div>				
+					</div>
+				</div>
+			</div>
+		<!-- end modal -->
+
+
+				<!-- JS dependencies -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+		<!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/7a46a783b9.js" crossorigin="anonymous"></script>
+
+	</body>
+</html>

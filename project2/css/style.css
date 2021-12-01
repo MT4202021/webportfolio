@@ -1,0 +1,30 @@
+*{
+	font-family: Raleway;
+	
+}
+
+body {
+	background-color: black;
+
+	
+}
+
+#punch {
+	height: 300px;
+	width: 90%;
+	margin: 0.5rem;
+	border-color: black;
+}
+
+
+
+.tato {
+	background-image: url(../image/init.png);
+}
+
+#shopee {
+	height: 200px;
+	width: 400px;
+	align-items: center;
+
+}
